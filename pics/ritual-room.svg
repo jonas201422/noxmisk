@@ -1,0 +1,20 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A1422"/>
+      <stop offset="1" stop-color="#7A3E5A"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E3D5" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F6E3D5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" fill="url(#bg)"/>
+  <rect y="320" width="720" height="200" fill="#190B15" fill-opacity="0.8"/>
+  <circle cx="560" cy="140" r="110" fill="#F4C9A6" fill-opacity="0.4"/>
+  <path d="M60 400C160 320 240 380 320 360C420 330 500 270 660 300" stroke="#F8D9C0" stroke-width="4"/>
+  <rect x="140" y="200" width="120" height="200" rx="24" fill="#F1D4C4" fill-opacity="0.5"/>
+  <rect x="300" y="160" width="160" height="240" rx="28" fill="#E7B7C4" fill-opacity="0.5"/>
+  <rect x="500" y="220" width="110" height="180" rx="22" fill="#F2D7BF" fill-opacity="0.5"/>
+  <rect width="720" height="520" fill="url(#mist)"/>
+</svg>
