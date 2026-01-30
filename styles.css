@@ -515,3 +515,40 @@ a {
     justify-content: flex-start;
   }
 }
+
+/* Hero video styles */
+.sub-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Video behind the content */
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Content remains in front */
+.sub-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* If there is an ::after overlay, it goes between video and content */
+.sub-hero::after {
+  z-index: 1;
+}
+
+/* Optional: respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    display: none;
+  }
+  .sub-hero {
+    background: var(--hero-image) center/cover no-repeat;
+  }
+}
